@@ -29,12 +29,26 @@ img{
     width: 350px;
     padding: 5px;
 }
-.prezzo-sconto{
-    width: 8px;
+.product{
+    position: relative;
+
+}
+.sconto{
+    position: absolute;
+    bottom: 90px;
+    left: 5px;
+    width: 60px;
     color: white;
     background-color: red;
     padding: 8px;
-
+}
+.caratteristica{
+    width: 90px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    background-color: green;
+    color: white;
 }
 .caratteristica{
     color: white;
