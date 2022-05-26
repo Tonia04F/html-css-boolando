@@ -3,74 +3,15 @@
     padding: 0;
     margin: 0;
 }
-/*commons*/
-
-
-h1{
-    margin: 20px;
+.conteiner{
+    max-width: 1100px;
+    margin: 0 10px;
+    padding: 0 auto;
 }
-.container{
-    width: 1100px;
-    padding: 0 25px;
-    margin: 0 auto;
-}
-
 .flex-container{
-    display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    display: flex;
 }
-.colonna{
-    /*se non aggiunto questo il flex non va*/
-    width: calc(100%/3);
-    padding: 10px;
-
-}
-img{
-    width: 350px;
-    padding: 5px;
-}
-.product{
-    position: relative;
-
-}
-.etichette{
-    position: absolute;
-    bottom: 80px;
-    left: 4px;
-}
-.perc-sconto{
-   
-    color: white;
-    background-color: red;
-}
-.caratt-prod{
-
-    color: white;
-    background-color: green;
-}
-.scontato{
-    color: red;
-    
-}
-.no-scontato{
-    color: rgb(40, 39, 39);
-    text-decoration: line-through;
-}
-.like{
-   position: absolute;
-   right: 0px;
-   top: 45px;
-}
-.heart{
-    padding: 5px;
-    text-align: center;
-    width: 40px;
-    color: black;
-    background-color: white;
-   
-}
-.like:hover .heart{ 
-    display: block;
-    color: red;
+.column{
+    width: calc(100% /3);
 }
