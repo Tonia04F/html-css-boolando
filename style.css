@@ -18,11 +18,12 @@ h1{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 .colonna{
     /*se non aggiunto questo il flex non va*/
     width: calc(100%/3);
-    padding: 20px;
+    padding: 10px;
 
 }
 img{
@@ -33,27 +34,20 @@ img{
     position: relative;
 
 }
-.sconto{
+.etichette{
     position: absolute;
-    bottom: 90px;
-    left: 5px;
-    width: 40px;
+    bottom: 80px;
+    left: 4px;
+}
+.perc-sconto{
+   
     color: white;
     background-color: red;
-    padding: 8px;
 }
-.caratteristica{
-    width: 40px;
-    position: absolute;
-    bottom: 90px;
-    left: 70px;
-    background-color: green;
-    color: white;
-}
-.caratteristica{
+.caratt-prod{
+
     color: white;
     background-color: green;
-    margin-right: 170px;
 }
 .scontato{
     color: red;
@@ -63,42 +57,20 @@ img{
     color: rgb(40, 39, 39);
     text-decoration: line-through;
 }
+.like{
+   position: absolute;
+   right: 0px;
+   top: 45px;
+}
 .heart{
+    padding: 5px;
     text-align: center;
     width: 40px;
-    position: absolute;
     color: black;
     background-color: white;
-    right: 70px;
-    top: 20px;
+   
 }
-.product:hover .heart{
-    position: absolute;
+.like:hover .heart{ 
     display: block;
     color: red;
-
-}
-.flex-container{
-    position: absolute;
-    bottom: 90px;
-    left: 5px;
-
-    display: flex;
-    
-    
-
-    
-}
-#perc-sconto{
-    color: white;
-    background-color: red;
-    margin-right: 4px;
-
-}
-
-
-#caratt-prod{
-
-    color: white;
-    background-color: green;
 }
