@@ -37,16 +37,16 @@ img{
     position: absolute;
     bottom: 90px;
     left: 5px;
-    width: 60px;
+    width: 40px;
     color: white;
     background-color: red;
     padding: 8px;
 }
 .caratteristica{
-    width: 90px;
+    width: 40px;
     position: absolute;
-    bottom: 100px;
-    left: 100px;
+    bottom: 90px;
+    left: 70px;
     background-color: green;
     color: white;
 }
@@ -62,4 +62,43 @@ img{
 .no-scontato{
     color: rgb(40, 39, 39);
     text-decoration: line-through;
+}
+.heart{
+    text-align: center;
+    width: 40px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    right: 70px;
+    top: 20px;
+}
+.product:hover .heart{
+    position: absolute;
+    display: block;
+    color: red;
+
+}
+.flex-container{
+    position: absolute;
+    bottom: 90px;
+    left: 5px;
+
+    display: flex;
+    
+    
+
+    
+}
+#perc-sconto{
+    color: white;
+    background-color: red;
+    margin-right: 4px;
+
+}
+
+
+#caratt-prod{
+
+    color: white;
+    background-color: green;
 }
